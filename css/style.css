@@ -1,120 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(185, 248, 248);
+body {
+  background-color: rgb(185, 248, 248);
 }
 
-#slider{
-    width: 800px;
-    height: 400px;
-    margin: 30px auto;
-    border-radius: 10px;
-    box-shadow: 0 15px 25px -10px rgb(115, 115, 115);
-    background-size: cover;
-    background-position: center;
-    transition: .2s;
-    background-image: url(../images/1.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    margin-top: 100px;
+#slider {
+  width: 800px;
+  height: 400px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px -10px rgb(115, 115, 115);
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s;
+  background-image: url(../images/1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
 }
 
-.arrows{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
+.arrows {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.arrows i{
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #eee;
-    font-size: 25px;
-    transition: .3s;
-    cursor: pointer;
+.arrows i {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  font-size: 25px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.arrows i:hover{
-    background-color: #000;
+.arrows i:hover {
+  background-color: #000;
 }
 
-#order{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.639);
-    color: #fff;
-    border-bottom-left-radius: 10px;
-    font-size: 22px;
-    padding: 10px 25px;
-    letter-spacing: 1px;
+#order {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.639);
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  font-size: 22px;
+  padding: 10px 25px;
+  letter-spacing: 1px;
 }
 
-#dots{
-    width: 200px;
-    position: absolute;
-    bottom: 20px;
-    left: calc(50% - 100px);
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    column-gap: 20px;
+#dots {
+  width: 200px;
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 100px);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
 }
 
-#dots li{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.68);
-    cursor: pointer;
-    transition: .3s;
+#dots li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.68);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-#dots li:hover{
-    background-color: #fff;
+#dots li:hover {
+  background-color: #fff;
 }
 
-.activeDot{
-    background-color: #fff !important;
-    transform: scale(1.05) !important;
-    box-shadow: 0 0 5px #fff;
+.activeDot {
+  background-color: #fff !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 5px #fff;
 }
 
 /************************************************************/
 
-#items{
-    width: 800px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+#items {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-#items img{
-    width: 180px;
-    border-radius: 5px;
-    box-shadow: 0 15px 20px -10px #ccc;
-    transition: .3s;
-    cursor: pointer;
+#items img {
+  width: 180px;
+  border-radius: 5px;
+  box-shadow: 0 15px 20px -10px #ccc;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-#items img:hover{
-    transform: scale(1.04) translateY(-5px);
-    box-shadow: 0 15px 25px -10px rgb(84, 84, 84);
+#items img:hover {
+  transform: scale(1.04) translateY(-5px);
+  box-shadow: 0 15px 25px -10px rgb(84, 84, 84);
 }
 
-.active{
-    transform: scale(1.04) translateY(-5px) !important;
-    box-shadow: 0 15px 25px -10px rgb(84, 84, 84) !important;
+.active {
+  transform: scale(1.04) translateY(-5px) !important;
+  box-shadow: 0 15px 25px -10px rgb(84, 84, 84) !important;
 }
